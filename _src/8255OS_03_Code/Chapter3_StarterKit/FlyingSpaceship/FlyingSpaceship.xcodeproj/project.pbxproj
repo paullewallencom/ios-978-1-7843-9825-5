@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		920EA97019CCA14900A672B8 /* FSGame.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 920EA96F19CCA14900A672B8 /* FSGame.atlas */; };
+		929B35A119C46E7600366F3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929B35A019C46E7600366F3E /* Foundation.framework */; };
+		929B35A319C46E7600366F3E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929B35A219C46E7600366F3E /* CoreGraphics.framework */; };
+		929B35A519C46E7600366F3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929B35A419C46E7600366F3E /* UIKit.framework */; };
+		929B35A719C46E7600366F3E /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929B35A619C46E7600366F3E /* SpriteKit.framework */; };
+		929B35AD19C46E7600366F3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 929B35AB19C46E7600366F3E /* InfoPlist.strings */; };
+		929B35AF19C46E7600366F3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 929B35AE19C46E7600366F3E /* main.m */; };
+		929B35B319C46E7700366F3E /* FSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 929B35B219C46E7700366F3E /* FSAppDelegate.m */; };
+		929B35B619C46E7700366F3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929B35B419C46E7700366F3E /* Main.storyboard */; };
+		929B35B919C46E7700366F3E /* FSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929B35B819C46E7700366F3E /* FSViewController.m */; };
+		929B35BC19C46E7700366F3E /* FSMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 929B35BB19C46E7700366F3E /* FSMyScene.m */; };
+		929B35C019C46E7700366F3E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929B35BF19C46E7700366F3E /* Images.xcassets */; };
+		929B35C719C46E7700366F3E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929B35C619C46E7700366F3E /* XCTest.framework */; };
+		929B35C819C46E7700366F3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929B35A019C46E7600366F3E /* Foundation.framework */; };
+		929B35C919C46E7700366F3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929B35A419C46E7600366F3E /* UIKit.framework */; };
+		929B35D119C46E7700366F3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 929B35CF19C46E7700366F3E /* InfoPlist.strings */; };
+		929B35D319C46E7700366F3E /* FlyingSpaceshipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 929B35D219C46E7700366F3E /* FlyingSpaceshipTests.m */; };
+		92A30E3019C55F5300339CA4 /* SpaceBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A30E2F19C55F5300339CA4 /* SpaceBackground.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		929B35CA19C46E7700366F3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 929B359519C46E7600366F3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 929B359C19C46E7600366F3E;
+			remoteInfo = FlyingSpaceship;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		920EA96F19CCA14900A672B8 /* FSGame.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = FSGame.atlas; sourceTree = "<group>"; };
+		929B359D19C46E7600366F3E /* FlyingSpaceship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyingSpaceship.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		929B35A019C46E7600366F3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		929B35A219C46E7600366F3E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		929B35A419C46E7600366F3E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		929B35A619C46E7600366F3E /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		929B35AA19C46E7600366F3E /* FlyingSpaceship-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlyingSpaceship-Info.plist"; sourceTree = "<group>"; };
+		929B35AC19C46E7600366F3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		929B35AE19C46E7600366F3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		929B35B019C46E7600366F3E /* FlyingSpaceship-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlyingSpaceship-Prefix.pch"; sourceTree = "<group>"; };
+		929B35B119C46E7600366F3E /* FSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSAppDelegate.h; sourceTree = "<group>"; };
+		929B35B219C46E7700366F3E /* FSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSAppDelegate.m; sourceTree = "<group>"; };
+		929B35B519C46E7700366F3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		929B35B719C46E7700366F3E /* FSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSViewController.h; sourceTree = "<group>"; };
+		929B35B819C46E7700366F3E /* FSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSViewController.m; sourceTree = "<group>"; };
+		929B35BA19C46E7700366F3E /* FSMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSMyScene.h; sourceTree = "<group>"; };
+		929B35BB19C46E7700366F3E /* FSMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSMyScene.m; sourceTree = "<group>"; };
+		929B35BF19C46E7700366F3E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		929B35C519C46E7700366F3E /* FlyingSpaceshipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyingSpaceshipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		929B35C619C46E7700366F3E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		929B35CE19C46E7700366F3E /* FlyingSpaceshipTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlyingSpaceshipTests-Info.plist"; sourceTree = "<group>"; };
+		929B35D019C46E7700366F3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		929B35D219C46E7700366F3E /* FlyingSpaceshipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyingSpaceshipTests.m; sourceTree = "<group>"; };
+		92A30E2F19C55F5300339CA4 /* SpaceBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpaceBackground.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		929B359A19C46E7600366F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929B35A319C46E7600366F3E /* CoreGraphics.framework in Frameworks */,
+				929B35A519C46E7600366F3E /* UIKit.framework in Frameworks */,
+				929B35A719C46E7600366F3E /* SpriteKit.framework in Frameworks */,
+				929B35A119C46E7600366F3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929B35C219C46E7700366F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929B35C719C46E7700366F3E /* XCTest.framework in Frameworks */,
+				929B35C919C46E7700366F3E /* UIKit.framework in Frameworks */,
+				929B35C819C46E7700366F3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		929B359419C46E7600366F3E = {
+			isa = PBXGroup;
+			children = (
+				929B35A819C46E7600366F3E /* FlyingSpaceship */,
+				929B35CC19C46E7700366F3E /* FlyingSpaceshipTests */,
+				929B359F19C46E7600366F3E /* Frameworks */,
+				929B359E19C46E7600366F3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		929B359E19C46E7600366F3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				929B359D19C46E7600366F3E /* FlyingSpaceship.app */,
+				929B35C519C46E7700366F3E /* FlyingSpaceshipTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		929B359F19C46E7600366F3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				929B35A019C46E7600366F3E /* Foundation.framework */,
+				929B35A219C46E7600366F3E /* CoreGraphics.framework */,
+				929B35A419C46E7600366F3E /* UIKit.framework */,
+				929B35A619C46E7600366F3E /* SpriteKit.framework */,
+				929B35C619C46E7700366F3E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		929B35A819C46E7600366F3E /* FlyingSpaceship */ = {
+			isa = PBXGroup;
+			children = (
+				929B35B119C46E7600366F3E /* FSAppDelegate.h */,
+				929B35B219C46E7700366F3E /* FSAppDelegate.m */,
+				929B35B419C46E7700366F3E /* Main.storyboard */,
+				929B35B719C46E7700366F3E /* FSViewController.h */,
+				929B35B819C46E7700366F3E /* FSViewController.m */,
+				929B35BA19C46E7700366F3E /* FSMyScene.h */,
+				929B35BB19C46E7700366F3E /* FSMyScene.m */,
+				92A30E3119C55F5A00339CA4 /* Resources */,
+				929B35BF19C46E7700366F3E /* Images.xcassets */,
+				929B35A919C46E7600366F3E /* Supporting Files */,
+			);
+			path = FlyingSpaceship;
+			sourceTree = "<group>";
+		};
+		929B35A919C46E7600366F3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				929B35AA19C46E7600366F3E /* FlyingSpaceship-Info.plist */,
+				929B35AB19C46E7600366F3E /* InfoPlist.strings */,
+				929B35AE19C46E7600366F3E /* main.m */,
+				929B35B019C46E7600366F3E /* FlyingSpaceship-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		929B35CC19C46E7700366F3E /* FlyingSpaceshipTests */ = {
+			isa = PBXGroup;
+			children = (
+				929B35D219C46E7700366F3E /* FlyingSpaceshipTests.m */,
+				929B35CD19C46E7700366F3E /* Supporting Files */,
+			);
+			path = FlyingSpaceshipTests;
+			sourceTree = "<group>";
+		};
+		929B35CD19C46E7700366F3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				929B35CE19C46E7700366F3E /* FlyingSpaceshipTests-Info.plist */,
+				929B35CF19C46E7700366F3E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92A30E3119C55F5A00339CA4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				920EA96F19CCA14900A672B8 /* FSGame.atlas */,
+				92A30E2F19C55F5300339CA4 /* SpaceBackground.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		929B359C19C46E7600366F3E /* FlyingSpaceship */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929B35D619C46E7700366F3E /* Build configuration list for PBXNativeTarget "FlyingSpaceship" */;
+			buildPhases = (
+				929B359919C46E7600366F3E /* Sources */,
+				929B359A19C46E7600366F3E /* Frameworks */,
+				929B359B19C46E7600366F3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyingSpaceship;
+			productName = FlyingSpaceship;
+			productReference = 929B359D19C46E7600366F3E /* FlyingSpaceship.app */;
+			productType = "com.apple.product-type.application";
+		};
+		929B35C419C46E7700366F3E /* FlyingSpaceshipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929B35D919C46E7700366F3E /* Build configuration list for PBXNativeTarget "FlyingSpaceshipTests" */;
+			buildPhases = (
+				929B35C119C46E7700366F3E /* Sources */,
+				929B35C219C46E7700366F3E /* Frameworks */,
+				929B35C319C46E7700366F3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				929B35CB19C46E7700366F3E /* PBXTargetDependency */,
+			);
+			name = FlyingSpaceshipTests;
+			productName = FlyingSpaceshipTests;
+			productReference = 929B35C519C46E7700366F3E /* FlyingSpaceshipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		929B359519C46E7600366F3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = RahulBorawar;
+				TargetAttributes = {
+					929B35C419C46E7700366F3E = {
+						TestTargetID = 929B359C19C46E7600366F3E;
+					};
+				};
+			};
+			buildConfigurationList = 929B359819C46E7600366F3E /* Build configuration list for PBXProject "FlyingSpaceship" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 929B359419C46E7600366F3E;
+			productRefGroup = 929B359E19C46E7600366F3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				929B359C19C46E7600366F3E /* FlyingSpaceship */,
+				929B35C419C46E7700366F3E /* FlyingSpaceshipTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		929B359B19C46E7600366F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A30E3019C55F5300339CA4 /* SpaceBackground.png in Resources */,
+				920EA97019CCA14900A672B8 /* FSGame.atlas in Resources */,
+				929B35AD19C46E7600366F3E /* InfoPlist.strings in Resources */,
+				929B35C019C46E7700366F3E /* Images.xcassets in Resources */,
+				929B35B619C46E7700366F3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929B35C319C46E7700366F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929B35D119C46E7700366F3E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		929B359919C46E7600366F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929B35AF19C46E7600366F3E /* main.m in Sources */,
+				929B35B319C46E7700366F3E /* FSAppDelegate.m in Sources */,
+				929B35B919C46E7700366F3E /* FSViewController.m in Sources */,
+				929B35BC19C46E7700366F3E /* FSMyScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929B35C119C46E7700366F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929B35D319C46E7700366F3E /* FlyingSpaceshipTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		929B35CB19C46E7700366F3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 929B359C19C46E7600366F3E /* FlyingSpaceship */;
+			targetProxy = 929B35CA19C46E7700366F3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		929B35AB19C46E7600366F3E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929B35AC19C46E7600366F3E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		929B35B419C46E7700366F3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929B35B519C46E7700366F3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		929B35CF19C46E7700366F3E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929B35D019C46E7700366F3E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		929B35D419C46E7700366F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+			};
+			name = Debug;
+		};
+		929B35D519C46E7700366F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		929B35D719C46E7700366F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyingSpaceship/FlyingSpaceship-Prefix.pch";
+				INFOPLIST_FILE = "FlyingSpaceship/FlyingSpaceship-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		929B35D819C46E7700366F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyingSpaceship/FlyingSpaceship-Prefix.pch";
+				INFOPLIST_FILE = "FlyingSpaceship/FlyingSpaceship-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		929B35DA19C46E7700366F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlyingSpaceship.app/FlyingSpaceship";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyingSpaceship/FlyingSpaceship-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FlyingSpaceshipTests/FlyingSpaceshipTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		929B35DB19C46E7700366F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlyingSpaceship.app/FlyingSpaceship";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyingSpaceship/FlyingSpaceship-Prefix.pch";
+				INFOPLIST_FILE = "FlyingSpaceshipTests/FlyingSpaceshipTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		929B359819C46E7600366F3E /* Build configuration list for PBXProject "FlyingSpaceship" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929B35D419C46E7700366F3E /* Debug */,
+				929B35D519C46E7700366F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929B35D619C46E7700366F3E /* Build configuration list for PBXNativeTarget "FlyingSpaceship" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929B35D719C46E7700366F3E /* Debug */,
+				929B35D819C46E7700366F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929B35D919C46E7700366F3E /* Build configuration list for PBXNativeTarget "FlyingSpaceshipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929B35DA19C46E7700366F3E /* Debug */,
+				929B35DB19C46E7700366F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 929B359519C46E7600366F3E /* Project object */;
+}

@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F543DF01A1B850C0029D38C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F543DEF1A1B850C0029D38C /* main.m */; };
+		2F543DF31A1B850C0029D38C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F543DF21A1B850C0029D38C /* AppDelegate.m */; };
+		2F543DF61A1B850D0029D38C /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F543DF51A1B850D0029D38C /* GameScene.m */; };
+		2F543DF81A1B850D0029D38C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2F543DF71A1B850D0029D38C /* GameScene.sks */; };
+		2F543DFB1A1B850D0029D38C /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F543DFA1A1B850D0029D38C /* GameViewController.m */; };
+		2F543DFE1A1B850D0029D38C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F543DFC1A1B850D0029D38C /* Main.storyboard */; };
+		2F543E001A1B850D0029D38C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F543DFF1A1B850D0029D38C /* Images.xcassets */; };
+		2F543E031A1B850D0029D38C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F543E011A1B850D0029D38C /* LaunchScreen.xib */; };
+		2F543E0F1A1B850D0029D38C /* Physics_JointsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F543E0E1A1B850D0029D38C /* Physics_JointsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F543E091A1B850D0029D38C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F543DE21A1B850B0029D38C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F543DE91A1B850C0029D38C;
+			remoteInfo = "Physics Joints";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F543DEA1A1B850C0029D38C /* Physics Joints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Physics Joints.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F543DEE1A1B850C0029D38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F543DEF1A1B850C0029D38C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F543DF11A1B850C0029D38C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F543DF21A1B850C0029D38C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F543DF41A1B850D0029D38C /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		2F543DF51A1B850D0029D38C /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		2F543DF71A1B850D0029D38C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		2F543DF91A1B850D0029D38C /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		2F543DFA1A1B850D0029D38C /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		2F543DFD1A1B850D0029D38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F543DFF1A1B850D0029D38C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2F543E021A1B850D0029D38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2F543E081A1B850D0029D38C /* Physics JointsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Physics JointsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F543E0D1A1B850D0029D38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F543E0E1A1B850D0029D38C /* Physics_JointsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Physics_JointsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F543DE71A1B850C0029D38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F543E051A1B850D0029D38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F543DE11A1B850B0029D38C = {
+			isa = PBXGroup;
+			children = (
+				2F543DEC1A1B850C0029D38C /* Physics Joints */,
+				2F543E0B1A1B850D0029D38C /* Physics JointsTests */,
+				2F543DEB1A1B850C0029D38C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F543DEB1A1B850C0029D38C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F543DEA1A1B850C0029D38C /* Physics Joints.app */,
+				2F543E081A1B850D0029D38C /* Physics JointsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F543DEC1A1B850C0029D38C /* Physics Joints */ = {
+			isa = PBXGroup;
+			children = (
+				2F543DF11A1B850C0029D38C /* AppDelegate.h */,
+				2F543DF21A1B850C0029D38C /* AppDelegate.m */,
+				2F543DF41A1B850D0029D38C /* GameScene.h */,
+				2F543DF51A1B850D0029D38C /* GameScene.m */,
+				2F543DF71A1B850D0029D38C /* GameScene.sks */,
+				2F543DF91A1B850D0029D38C /* GameViewController.h */,
+				2F543DFA1A1B850D0029D38C /* GameViewController.m */,
+				2F543DFC1A1B850D0029D38C /* Main.storyboard */,
+				2F543DFF1A1B850D0029D38C /* Images.xcassets */,
+				2F543E011A1B850D0029D38C /* LaunchScreen.xib */,
+				2F543DED1A1B850C0029D38C /* Supporting Files */,
+			);
+			path = "Physics Joints";
+			sourceTree = "<group>";
+		};
+		2F543DED1A1B850C0029D38C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F543DEE1A1B850C0029D38C /* Info.plist */,
+				2F543DEF1A1B850C0029D38C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F543E0B1A1B850D0029D38C /* Physics JointsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F543E0E1A1B850D0029D38C /* Physics_JointsTests.m */,
+				2F543E0C1A1B850D0029D38C /* Supporting Files */,
+			);
+			path = "Physics JointsTests";
+			sourceTree = "<group>";
+		};
+		2F543E0C1A1B850D0029D38C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F543E0D1A1B850D0029D38C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F543DE91A1B850C0029D38C /* Physics Joints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F543E121A1B850D0029D38C /* Build configuration list for PBXNativeTarget "Physics Joints" */;
+			buildPhases = (
+				2F543DE61A1B850C0029D38C /* Sources */,
+				2F543DE71A1B850C0029D38C /* Frameworks */,
+				2F543DE81A1B850C0029D38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Physics Joints";
+			productName = "Physics Joints";
+			productReference = 2F543DEA1A1B850C0029D38C /* Physics Joints.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F543E071A1B850D0029D38C /* Physics JointsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F543E151A1B850D0029D38C /* Build configuration list for PBXNativeTarget "Physics JointsTests" */;
+			buildPhases = (
+				2F543E041A1B850D0029D38C /* Sources */,
+				2F543E051A1B850D0029D38C /* Frameworks */,
+				2F543E061A1B850D0029D38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F543E0A1A1B850D0029D38C /* PBXTargetDependency */,
+			);
+			name = "Physics JointsTests";
+			productName = "Physics JointsTests";
+			productReference = 2F543E081A1B850D0029D38C /* Physics JointsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F543DE21A1B850B0029D38C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = mb;
+				TargetAttributes = {
+					2F543DE91A1B850C0029D38C = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					2F543E071A1B850D0029D38C = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 2F543DE91A1B850C0029D38C;
+					};
+				};
+			};
+			buildConfigurationList = 2F543DE51A1B850C0029D38C /* Build configuration list for PBXProject "Physics Joints" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F543DE11A1B850B0029D38C;
+			productRefGroup = 2F543DEB1A1B850C0029D38C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F543DE91A1B850C0029D38C /* Physics Joints */,
+				2F543E071A1B850D0029D38C /* Physics JointsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F543DE81A1B850C0029D38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F543E031A1B850D0029D38C /* LaunchScreen.xib in Resources */,
+				2F543E001A1B850D0029D38C /* Images.xcassets in Resources */,
+				2F543DF81A1B850D0029D38C /* GameScene.sks in Resources */,
+				2F543DFE1A1B850D0029D38C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F543E061A1B850D0029D38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F543DE61A1B850C0029D38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F543DFB1A1B850D0029D38C /* GameViewController.m in Sources */,
+				2F543DF31A1B850C0029D38C /* AppDelegate.m in Sources */,
+				2F543DF61A1B850D0029D38C /* GameScene.m in Sources */,
+				2F543DF01A1B850C0029D38C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F543E041A1B850D0029D38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F543E0F1A1B850D0029D38C /* Physics_JointsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F543E0A1A1B850D0029D38C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F543DE91A1B850C0029D38C /* Physics Joints */;
+			targetProxy = 2F543E091A1B850D0029D38C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F543DFC1A1B850D0029D38C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F543DFD1A1B850D0029D38C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F543E011A1B850D0029D38C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F543E021A1B850D0029D38C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F543E101A1B850D0029D38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F543E111A1B850D0029D38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F543E131A1B850D0029D38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Physics Joints/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F543E141A1B850D0029D38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Physics Joints/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F543E161A1B850D0029D38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Physics JointsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Physics Joints.app/Physics Joints";
+			};
+			name = Debug;
+		};
+		2F543E171A1B850D0029D38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Physics JointsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Physics Joints.app/Physics Joints";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F543DE51A1B850C0029D38C /* Build configuration list for PBXProject "Physics Joints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F543E101A1B850D0029D38C /* Debug */,
+				2F543E111A1B850D0029D38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F543E121A1B850D0029D38C /* Build configuration list for PBXNativeTarget "Physics Joints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F543E131A1B850D0029D38C /* Debug */,
+				2F543E141A1B850D0029D38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F543E151A1B850D0029D38C /* Build configuration list for PBXNativeTarget "Physics JointsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F543E161A1B850D0029D38C /* Debug */,
+				2F543E171A1B850D0029D38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F543DE21A1B850B0029D38C /* Project object */;
+}

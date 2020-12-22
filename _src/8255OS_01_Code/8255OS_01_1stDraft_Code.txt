@@ -1,0 +1,39 @@
+CHAPTER 1
+---------
+
+PAGE 14
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    UITouch *touch = [touches anyObject];
+    CGPoint positionInScene = [touch locationInNode:self];
+    SKSpriteNode *touchedNode = (SKSpriteNode *)[self nodeAtPoint:positionInScene];
+    if (touchedNode == self.ant) {
+        SKAction *sequence = [SKAction sequence:@[[SKAction rotateByAngle:degreeToRadian(-3.0f) duration:0.2],
+                                                  [SKAction rotateByAngle:0.0 duration:0.1],
+                                                  [SKAction rotateByAngle:degreeToRadian(3.0f) duration:0.2]]];
+        
+        [touchedNode runAction:[SKAction repeatActionForever:sequence]];
+    }    
+}
+
+float degreeToRadian(float degree) {
+	return degree / 180.0f * M_PI;
+}
+
+
+PAGE 15
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    UITouch *touch = [touches anyObject];
+    CGPoint positionInScene = [touch locationInNode:self];
+    SKSpriteNode *touchedNode = (SKSpriteNode *)[self nodeAtPoint:positionInScene];
+    if (touchedNode == self.ant) {
+        SKAction *sequence = [SKAction sequence:@[[SKAction rotateByAngle:degreeToRadian(-3.0f) duration:0.2],
+                                                  [SKAction rotateByAngle:0.0 duration:0.1],
+                                                  [SKAction rotateByAngle:degreeToRadian(3.0f) duration:0.2]]];
+        
+        [touchedNode runAction:[SKAction repeatActionForever:sequence]];
+    } else {
+        [self.ant removeAllActions];
+    }
+}
